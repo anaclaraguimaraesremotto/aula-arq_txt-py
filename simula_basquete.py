@@ -46,6 +46,8 @@ while len(leste) > 1:
     leste = aux_leste
     oeste = aux_oeste
 
-print(aux_leste)
-print(aux_oeste)
+vencedor = mata_mata(leste[0], oeste [0], arq)
+print("Vencedor: ", vencedor) 
+# print(aux_leste)
+# print(aux_oeste)
 arq.close()
